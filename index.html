@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-    <h1>NAVBAR UI</h1>
     <main>
-        <div class="nav nav-first">
+        <h1 class="main-title">Navbar UI</h1>
+
+        <div class="nav">
             <h2>With Search Tab</h2>
-            <div class="nav-content">
+            <div class="nav-general nav-content-first">
                 <div class="nav__logo">
-                    <img src="" alt="" class="logo__icon">
+                    <div class="nav-logo-container">
+                        <img src="img/icon-explosion.png" alt="" class="logo__icon">
+                    </div>
                     <p class="logo__tittle">Supryze</p>
                 </div>
                 <a href="" class="nav__item">Gifts</a>
                 <a href="" class="nav__item">Flowers</a>
-                <div class="nav__input-group">
+
+
+                <div class="input-group">
                     <button class="input-group__button">
-                        <svg class="input-group__icon">
-                            <use xlink:href=""></use>
-                        </svg>
+                        <img src="img/icons8-search.svg" alt="">
                     </button>
                     <input type="text" class="input-group__input" placeholder="Search"> 
                 </div>
+
+
+
                 <a href="" class="nav__item">About</a>
                 <a href="" class="nav__item nav__item-download">Download App</a>
                 <a href="" class="nav__item nav__item-register">Register</a>
@@ -35,27 +44,38 @@
         </div>
 
 
-        <div class="nav nav-second">
+        <div class="nav">
 
             <h2>Without Search Tab</h2>
 
-            <div class="nav-content">
-                <div class="nav__logo">
-                    <img src="" alt="" class="logo__icon">
-                    <p class="logo__tittle">Supryze</p>
+            <div class="nav-content-second">
+                
+                <div class="buttons">
+                    <div class="nav__logo">
+                        <div class="nav-logo-container">
+                            <img src="img/icon-explosion.png" alt="" class="logo__icon">
+                        </div>
+                        <p class="logo__tittle">Supryze</p>
+                    </div>    
+                    <a href="" class="nav__item">Gifts</a>
+                    <a href="" class="nav__item">Flowers</a>
                 </div>
-                <a href="" class="nav__item">Gifts</a>
-                <a href="" class="nav__item">Flowers</a>
     
-                <a href="" class="nav__item">About</a>
+
+
+                <div class="buttons">
+                    <a href="" class="nav__item">About</a>
                 <a href="" class="nav__item nav__item-download">Download App</a>
                 <a href="" class="nav__item nav__item-register">Register</a>
                 <a href="" class="nav__item">Login</a>        
     
+                </div>
+                
 
             </div>
            
         </div>
+
         
 
 

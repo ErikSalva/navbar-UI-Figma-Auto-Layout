@@ -1,0 +1,149 @@
+
+
+
+body{
+    background-color: rgb(251,228,204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+    width: 80%;
+
+}
+
+.main-title{
+    font-weight: 800;
+    text-align: center;
+    font-size: 80px;
+}
+.nav-general > *{
+    margin: 0 0.5rem;
+}
+
+/*rgb(182,182,182) color input y search*/
+.nav-content-first, .nav-content-second{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 0.5rem;
+}
+
+
+.nav__item{
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav__logo{
+    display: flex;
+    width: 8rem;
+    justify-content: space-around;
+}
+
+
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__icon{
+    width: 40px;
+}
+
+.logo__tittle{
+    color: rgb(17,96,192);
+    font-weight: bold;
+}
+
+
+.input-group{
+    border: solid 1px rgb(182,182,182);
+    height: 2rem;
+    display: flex;
+    border-radius: 5px;
+    margin: 0 1rem;
+    flex-grow: 5;
+
+}
+
+.input-group__input{
+    border: solid 1px rgb(182,182,182);
+    border: 0;
+    outline: 0;
+}
+
+.input-group__button{
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius:5px;
+
+
+}
+.input-group__button > img{
+    width: 1rem;
+}
+
+.nav__item-download{
+    border: solid 2px rgb(13,95,193);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.nav__item-register{
+
+    border: solid 2px rgb(13,95,193);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(13,95,193);
+    transition: all 1s;
+
+}
+
+.nav__item-download:hover{
+    background-color: rgb(13,95,193);
+    color: white;
+
+
+}
+
+.nav__item-register:hover{
+    border: solid 2px rgb(13,95,193);
+    color: black;
+    background-color: white;
+
+
+}
+
+
+.nav-content-second{
+    justify-content: space-between;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttons >*{
+    margin: 0 0.5rem;
+}
