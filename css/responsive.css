@@ -1,0 +1,75 @@
+/* faltaron resposive de 320*/
+
+
+@media (min-width: 479px) and (max-width: 767px) {
+    :root{
+        --font-size-h1:3.5rem;
+        --font-size-h2:1.2rem;
+        --font-size-navbar: 0.6rem;
+        --width-logo: 25px;
+
+    
+    }
+    .nav-content-first{
+        flex-wrap: wrap;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .nav-content-second{
+        flex-wrap: wrap;
+        padding: 0.5rem 0.5rem;
+    }
+    .input-group{
+        width: 100%;
+         height: 1.5rem;
+    }
+}
+    
+
+@media (min-width: 767px) and (max-width: 1023px){
+    :root{
+        --font-size-h1:3.5rem;
+        --font-size-h2:1.2rem;
+        --font-size-navbar: 0.8rem;
+        --width-logo: 25px;
+
+    
+    }
+    .nav-content-first{
+        flex-wrap: wrap;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .nav-content-second{
+        flex-wrap: wrap;
+        padding: 0.5rem 0.5rem;
+    }
+}   
+
+@media (min-width: 1023px) and (max-width: 1279px){
+
+    :root{
+        --font-size-h1:3.5rem;
+        --font-size-h2:1.2rem;
+        --font-size-navbar: 0.8rem;
+        --width-logo: 25px;
+
+    
+    }
+    .nav-content-first{
+        flex-wrap: wrap;
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+
+
+@media (min-width: 1279px) and (max-width: 1439px){
+    :root{
+        --font-size-h1:3.5rem;
+        --font-size-h2:1.2rem;
+        --font-size-navbar: 0.8rem;
+        --width-logo: 25px;
+
+    }
+}

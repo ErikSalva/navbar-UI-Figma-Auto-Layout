@@ -1,5 +1,11 @@
 
+:root{
+    --font-size-h1:4rem;
+    --font-size-h2:1.5rem;
+    --font-size-navbar: 1rem;
+    --width-logo: 35px;
 
+}
 
 body{
     background-color: rgb(251,228,204);
@@ -11,15 +17,29 @@ body{
 
 }
 
+h2{
+    font-size: var(--font-size-h2);
+}
+
+a{
+    font-size: var(--font-size-navbar);
+}
+
+p{
+    font-size: var(--font-size-navbar);
+}
+
+
+
 main{
-    width: 80%;
+    width: 70%;
 
 }
 
 .main-title{
     font-weight: 800;
     text-align: center;
-    font-size: 80px;
+    font-size: var(--font-size-h1);
 }
 .nav-general > *{
     margin: 0 0.5rem;
@@ -52,10 +72,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0.2rem;
+    box-sizing: border-box;
 }
 
 .logo__icon{
-    width: 40px;
+    width: var(--width-logo);
 }
 
 .logo__tittle{
@@ -70,7 +92,7 @@ main{
     display: flex;
     border-radius: 5px;
     margin: 0 1rem;
-    flex-grow: 5;
+    flex-grow: 1;
 
 }
 
